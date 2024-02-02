@@ -1,1 +1,1 @@
-"# NET PowerControl Home"
+# NET PowerControl Home
