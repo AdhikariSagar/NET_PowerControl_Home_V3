@@ -1,0 +1,288 @@
+{
+    "ActualValues": {
+        "Camwares": [
+            {
+                "Client": {
+                    "Network": {
+                        "IPAddress": "127.0.0.1",
+                        "Port": 31200
+                    },
+                    "Properties": {
+                        "Built": "",
+                        "RemoteName": "Left_Camware",
+                        "Version": ""
+                    }
+                },
+                "Eos": [
+                    {
+                        "Aperture": 0,
+                        "Focus": 250
+                    },
+                    {
+                        "Aperture": 0,
+                        "Focus": 250
+                    }
+                ],
+                "ID": 6,
+                "Name": "Left_Camware"
+            }
+        ],
+        "Flaps": [
+            {
+                "Axes": {
+                    "Axis1": "108",
+                    "Axis2": "108"
+                },
+                "Client": {
+                    "Network": {
+                        "IPAddress": "127.0.0.1",
+                        "Port": 31800
+                    },
+                    "Properties": {
+                        "Built": "",
+                        "RemoteName": "Trvman 1",
+                        "Version": ""
+                    }
+                },
+                "ID": 7,
+                "Name": "Left_LSO_Flaps"
+            }
+        ],
+        "Synchronizers": [
+            {
+                "Client": {
+                    "Network": {
+                        "IPAddress": "127.0.0.1",
+                        "Port": 31600
+                    },
+                    "Properties": {
+                        "Built": "",
+                        "RemoteName": "Synchronizer",
+                        "Version": ""
+                    }
+                },
+                "ID": 1,
+                "Name": "Synchronizer",
+                "SyncData": {
+                    "CameraFreq": "15.00",
+                    "Energy1": "200.00",
+                    "Energy2": "200.00",
+                    "LampFreq": "15.00",
+                    "PulseDistance": "50.00",
+                    "QSwitchFreq": "15.00"
+                },
+                "SystemNo": 1
+            }
+        ],
+        "Tilts": [
+            {
+                "Axes": {
+                    "Axis1": "1.8"
+                },
+                "Client": {
+                    "Network": {
+                        "IPAddress": "127.0.0.1",
+                        "Port": 31800
+                    },
+                    "Properties": {
+                        "Built": "",
+                        "RemoteName": "Trvman 1",
+                        "Version": ""
+                    }
+                },
+                "ID": 4,
+                "Name": "Left_Tilt_1"
+            },
+            {
+                "Axes": {
+                    "Axis1": "-4.2"
+                },
+                "Client": {
+                    "Network": {
+                        "IPAddress": "127.0.0.1",
+                        "Port": 31800
+                    },
+                    "Properties": {
+                        "Built": "",
+                        "RemoteName": "Trvman 1",
+                        "Version": ""
+                    }
+                },
+                "ID": 5,
+                "Name": "Left_Tilt_2"
+            }
+        ]
+    },
+    "EvaluationConfig": {
+        "Postscript": [
+        ],
+        "Prescript": [
+        ]
+    },
+    "Match": {
+        "CID": 7,
+        "Camwares": [
+            {
+                "Eos": [
+                    {
+                        "Aperture": 0,
+                        "Focus": 250
+                    },
+                    {
+                        "Aperture": 0,
+                        "Focus": 250
+                    }
+                ],
+                "ID": 6
+            }
+        ],
+        "Flaps": [
+            {
+                "Axes": {
+                    "Axis1": "108",
+                    "Axis2": "108"
+                },
+                "ID": 7
+            }
+        ],
+        "Plane": {
+            "RX": 0,
+            "RY": 0,
+            "RZ": 0,
+            "X": 0,
+            "Y": 0,
+            "Z": 0
+        },
+        "Robots": [
+            {
+                "ID": 3,
+                "RobotData": {
+                    "Arm1_ex_form": "321",
+                    "Arm1_form": "123",
+                    "Arm1_re": "-120.4372",
+                    "Arm1_rf": "4.1340",
+                    "Arm1_rx": "-21.4968",
+                    "Arm1_ry": "-123.7444",
+                    "Arm1_rz": "-22.3236",
+                    "Arm1_tool_no": "0",
+                    "Arm1_type": "19",
+                    "Arm1_user_no": "42",
+                    "Arm1_x": "1808.664",
+                    "Arm1_y": "2158.728",
+                    "Arm1_z": "2223.936",
+                    "Arm2_ex_form": "321",
+                    "Arm2_form": "123",
+                    "Arm2_re": "-32.2452",
+                    "Arm2_rf": "93.7040",
+                    "Arm2_rx": "-109.9644",
+                    "Arm2_ry": "80.1996",
+                    "Arm2_rz": "-74.4120",
+                    "Arm2_tool_no": "0",
+                    "Arm2_type": "19",
+                    "Arm2_user_no": "42",
+                    "Arm2_x": "2749.032",
+                    "Arm2_y": "1438.008",
+                    "Arm2_z": "312.312",
+                    "Arm3_ex_form": "321",
+                    "Arm3_form": "123",
+                    "Arm3_re": "77.7192",
+                    "Arm3_rf": "-137.8000",
+                    "Arm3_rx": "124.5712",
+                    "Arm3_ry": "-3.5828",
+                    "Arm3_rz": "-135.8708",
+                    "Arm3_tool_no": "0",
+                    "Arm3_type": "19",
+                    "Arm3_user_no": "42",
+                    "Arm3_x": "2563.704",
+                    "Arm3_y": "374.088",
+                    "Arm3_z": "1908.192",
+                    "Base1_re": "0.0000",
+                    "Base1_rf": "0.0000",
+                    "Base1_rx": "0.0000",
+                    "Base1_ry": "0.0000",
+                    "Base1_rz": "0.0000",
+                    "Base1_type": "16",
+                    "Base1_x": "0.000",
+                    "Base1_y": "2158.728",
+                    "Base1_z": "0.000",
+                    "Base2_re": "0.0000",
+                    "Base2_rf": "0.0000",
+                    "Base2_rx": "0.0000",
+                    "Base2_ry": "0.0000",
+                    "Base2_rz": "0.0000",
+                    "Base2_type": "16",
+                    "Base2_x": "0.000",
+                    "Base2_y": "-1438.008",
+                    "Base2_z": "0.000",
+                    "Base3_re": "0.0000",
+                    "Base3_rf": "0.0000",
+                    "Base3_rx": "0.0000",
+                    "Base3_ry": "0.0000",
+                    "Base3_rz": "0.0000",
+                    "Base3_type": "16",
+                    "Base3_x": "0.000",
+                    "Base3_y": "7125.912",
+                    "Base3_z": "0.000"
+                }
+            }
+        ],
+        "Scheduler": {
+            "Config": "D:\\data\\sysmanW\\12_PF_SL_v360.cfg",
+            "Parameter": "D:\\data\\sysmanW\\param.par"
+        },
+        "Synchronizers": [
+            {
+                "ID": 1,
+                "SyncData": {
+                    "CameraFreq": "15.00",
+                    "Energy1": "200.00",
+                    "Energy2": "200.00",
+                    "LampFreq": "15.00",
+                    "PulseDistance": "50.00",
+                    "QSwitchFreq": "15.00"
+                },
+                "SystemNo": 1
+            }
+        ],
+        "Tilts": [
+            {
+                "Axes": {
+                    "Axis1": "1.8"
+                },
+                "ID": 4
+            },
+            {
+                "Axes": {
+                    "Axis1": "-4.2"
+                },
+                "ID": 5
+            }
+        ]
+    },
+    "Request": {
+        "AcquireTime": "2022-11-07T11:40:48.663",
+        "AcquisitionImageFolder": "E:/Sysman/Left/17",
+        "CameraDirection": "upstream",
+        "IsMirrored": true,
+        "LaserAttLevelAcq": 1,
+        "LaserAttLevelRefl": 0.01,
+        "LaserPower": 1,
+        "Layout": "FRONT",
+        "ModelState": 456,
+        "PlaneName": "17",
+        "PlanePitchAngle": 0,
+        "PlaneRollAngle": 0,
+        "PlaneYawAngle": 0,
+        "RunNumber": 123,
+        "Spine": 123,
+        "SubTest": 567,
+        "SystemName": "SysLeft",
+        "Xoffset": 0,
+        "Yoffset": 0,
+        "Zoffset": 0
+    },
+    "SystemManager": {
+        "Built": "12.10.2022 - 17:13:00",
+        "Version": "4.1.4.1"
+    }
+}
